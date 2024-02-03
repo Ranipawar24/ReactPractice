@@ -3,7 +3,10 @@ import Header from "./Components/Header";
 import { useState, React } from "react";
 
 function App() {
+  {
+    /* EXAMPLE OF USESTATE
   const [count, setcounter] = useState(0);
+
   function updateCount() {
     setcounter(count + 1);
   }
@@ -18,13 +21,10 @@ function App() {
       <p>{x < 15 ? "Greater" : "Smaller"}</p>
       <Header name="Rani" />
       <Header name="Rani@123" />
-      <Header name="Rani@2020.com" />*/}
+      <Header name="Rani@2020.com" />
     </>
-
-    // <div>
-    //   <IncrimentandDecrement />
-    // </div>
-  );
+  );*/
+  }
 }
 
 export default App;
