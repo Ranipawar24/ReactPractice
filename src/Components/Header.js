@@ -1,6 +1,7 @@
 import React from "react";
 
-function Header() {
-  return <h1>I am Header</h1>;
+function Header(props) {
+  console.log(props);
+  return <h1>Hello Rani</h1>;
 }
 export default Header;
