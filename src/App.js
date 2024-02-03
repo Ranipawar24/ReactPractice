@@ -3,9 +3,16 @@ import Header from "./Components/Header";
 import { useState, React } from "react";
 
 function App() {
+  const [count, setcounter] = useState(0);
+  function updateCount() {
+    setcounter(count + 1);
+  }
+
   return (
     <>
       <h1>Learning Usestate</h1>
+      <h2>Button clicked {count} times </h2>
+      <button onClick={updateCount}>Click Me</button>
 
       {/* <h1 className="x">Hello world!!</h1>
       <p>{x < 15 ? "Greater" : "Smaller"}</p>
@@ -23,6 +30,7 @@ function App() {
 export default App;
 
 // like functions in js use used here as a props
+
 // // function add(a){
 //   return a+a;
 
