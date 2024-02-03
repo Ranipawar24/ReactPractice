@@ -1,5 +1,6 @@
 import "./App.css";
 import Header from "./Components/Header";
+import { useState, React } from "react";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
 
 export default App;
 
+// like functions in js use used here as a props
 // // function add(a){
 //   return a+a;
 
