@@ -6,18 +6,15 @@ function App() {
   {
     /* EXAMPLE OF USESTATE
   const [count, setcounter] = useState(0);
-
   function updateCount() {
     setcounter(count + 1);
   }
-
   return (
     <>
       <h1>Learning Usestate</h1>
       <h2>Button clicked {count} times </h2>
       <button onClick={updateCount}>Click Me</button>
-
-      {/* <h1 className="x">Hello world!!</h1>
+      <h1 className="x">Hello world!!</h1>
       <p>{x < 15 ? "Greater" : "Smaller"}</p>
       <Header name="Rani" />
       <Header name="Rani@123" />
