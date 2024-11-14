@@ -1,10 +1,9 @@
 import "./App.css";
-import Header from "./Components/Header";
+
 import { useState, React } from "react";
 
 function App() {
-  {
-    /* EXAMPLE OF USESTATE
+  /* EXAMPLE OF USESTATE*/
   const [count, setcounter] = useState(0);
   function updateCount() {
     setcounter(count + 1);
@@ -14,18 +13,13 @@ function App() {
       <h1>Learning Usestate</h1>
       <h2>Button clicked {count} times </h2>
       <button onClick={updateCount}>Click Me</button>
-      <h1 className="x">Hello world!!</h1>
-      <p>{x < 15 ? "Greater" : "Smaller"}</p>
-      <Header name="Rani" />
-      <Header name="Rani@123" />
-      <Header name="Rani@2020.com" />
     </>
-  );*/
-  }
+  );
 }
 
 export default App;
 
+/*
 // like functions in js use used here as a props
 
 // // function add(a){
@@ -39,3 +33,4 @@ export default App;
 // 2 MUST BE IMPORT IN COMPONENT
 // 3 MUST BE CALL AT TOP LEVEL OF COMP
 // 4 CANNOT BE CONDITIONAL
+*/
