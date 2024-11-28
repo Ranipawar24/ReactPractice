@@ -32,7 +32,7 @@ export default App;
 
 /*
 // like functions in js use used here as a props
-
+//
 
 // // function add(a){
 //   return a+a;
